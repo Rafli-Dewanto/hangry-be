@@ -59,7 +59,7 @@ export const userRoutes = (
         });
         break;
 
-      case "PUT":
+      case "PATCH":
         if (userId) {
           let data = "";
           req.on("data", (chunk) => {
